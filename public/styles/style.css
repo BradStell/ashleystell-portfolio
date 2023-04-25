@@ -1,0 +1,49 @@
+:root {
+  --font-family: 'Inter';
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+body {
+  background-color: #FFFAFA;
+}
+
+.astell-homepage-wrapper {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.astell-name-pane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.astell-name-pane h1 {
+  font-weight: 500;
+  font-size: 200px;
+  letter-spacing: -8px;
+  /* position: relative; */
+  /* top: 20vh; */
+}
+
+.astell-images-wrapper {
+  position: relative;
+  top: -200px;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  overflow-y: auto;
+}
+
+.astell-images-wrapper .astell-image {
+  height: 400px;
+}
